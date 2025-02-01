@@ -10,7 +10,7 @@ def main():
         number = int(input("Введите число: "))
         print(check_number(number))
     except ValueError:
-        print("Ошибка: введите целое число!")
+        print("Ошибка: ")
 
 if __name__ == "__main__":
     main()
