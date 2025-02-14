@@ -7,7 +7,7 @@ def check_number(n):
 
 def main():
     try:
-        number = int(input("Введите число: "))
+        number = int(input("Введите: "))
         print(check_number(number))
     except ValueError:
         print("Ошибка: ")
