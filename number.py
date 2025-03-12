@@ -3,7 +3,7 @@ def check_number(n):
     if n % 2 == 0:
         return f"Число {n} — четное число."
     else:
-        return f"Число {n} — нечетное."
+        return f"Число {n} — нечетное число."
 
 def main():
     try:
